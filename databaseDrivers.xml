@@ -1,0 +1,9 @@
+<application>
+  <component name="LocalDatabaseDriverManager" version="201">
+    <driver id="hsqldb.local">
+      <library>
+        <url>file:/C:\abdelrhman\CXCOMM220500P_2-80006942\hybris\bin\platform\lib\dbdriver\hsqldb-2.4.1.jar</url>
+      </library>
+    </driver>
+  </component>
+</application>

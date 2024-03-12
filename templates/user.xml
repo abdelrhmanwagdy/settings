@@ -1,0 +1,7 @@
+<templateSet group="user">
+  <template name="copyright" value="/*&#10; * Copyright (c) POET GmbH - All Rights Reserved&#10; *&#10; * Unauthorized copying of this file, via any medium is strictly prohibited&#10; * Proprietary and confidential&#10; * Written by $USERNAME$, $MONTH$ $YEAR$&#10; */" description="Copyright notice" toReformat="false" toShortenFQNames="true">
+    <variable name="USERNAME" expression="groovyScript(&quot;_editor.getSettings().getUsername().split('@')[0]&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="MONTH" expression="groovyScript(&quot;_date.format('MMMM')&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="YEAR" expression="groovyScript(&quot;_date.format('yyyy')&quot;)" defaultValue="" alwaysStopAt="true" />
+  </template>
+</templateSet>
