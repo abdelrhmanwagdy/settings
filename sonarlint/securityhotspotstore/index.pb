@@ -1,0 +1,5 @@
+
+h
+8src/training3occ/controllers/Training3occController.java,8\7\87925b430d98ca18917bcfc0d34de909297fb95b
+d
+4src/training3occ/controllers/ArticlesController.java,2\8\28fedc6575b971b7c3f947cfbef56a7f72b12319
